@@ -1,0 +1,15 @@
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+build/
+/bin
+
+### VS Code ###
+.vscode/
+
+.gradle
