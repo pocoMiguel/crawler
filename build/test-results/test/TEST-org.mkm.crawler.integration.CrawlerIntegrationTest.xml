@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mkm.crawler.integration.CrawlerIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T16:54:56" hostname="9801741s-MBP" time="4.914">
+  <properties/>
+  <testcase name="crawlURL" classname="org.mkm.crawler.integration.CrawlerIntegrationTest" time="4.914"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.eclipse.jetty.util.log - Logging initialized @1074ms
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.2.28.v20190418
+[Test worker] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@12f7d5a{/__admin,null,AVAILABLE}
+[Test worker] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@102e3598{/,null,AVAILABLE}
+[Test worker] INFO org.eclipse.jetty.server.NetworkTrafficServerConnector - Started NetworkTrafficServerConnector@551d960{HTTP/1.1}{0.0.0.0:8080}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @1194ms
+[qtp262129143-22] INFO /__admin - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'
+[pool-1-thread-1] INFO org.mkm.crawler.crawler.Crawler - Crawling http://localhost:8080/
+[qtp262129143-23] INFO / - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+[pool-1-thread-1] INFO org.mkm.crawler.crawler.Crawler - Crawling http://localhost:8080/page2
+[pool-1-thread-2] INFO org.mkm.crawler.crawler.Crawler - Crawling http://localhost:8080/page3
+[pool-1-thread-2] INFO org.mkm.crawler.crawler.Crawler - Crawling http://localhost:8080/page4
+[Test worker] INFO org.eclipse.jetty.server.NetworkTrafficServerConnector - Stopped NetworkTrafficServerConnector@551d960{HTTP/1.1}{0.0.0.0:8080}
+[Test worker] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@102e3598{/,null,UNAVAILABLE}
+[Test worker] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@12f7d5a{/__admin,null,UNAVAILABLE}
+[Test worker] WARN org.eclipse.jetty.util.thread.QueuedThreadPool - qtp262129143{STOPPING,8<=8<=14,i=5,q=6} Couldn't stop Thread[qtp262129143-18,5,]
+[Test worker] WARN org.eclipse.jetty.util.thread.QueuedThreadPool - qtp262129143{STOPPING,8<=8<=14,i=0,q=5} Couldn't stop Thread[qtp262129143-20,5,]
+]]></system-err>
+</testsuite>
