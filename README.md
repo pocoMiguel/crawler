@@ -9,8 +9,8 @@ Simple crawler
 This code base is developed using IntelliJ with Lombok plugin installed. Annotation processing has to be activated to work well with the code base. This does not mean that other IDEs can't be used but it is preferred that your IDE can see the generated functions/classes.
 
 # Getting started
-- Run gradle jar to obtain a runnable JAR
-- Run java -jar build/libs/crawler-1.0-SNAPSHOT.jar http://somesite.com
+- Run gradle build to build the app
+- Run gradle run --args='http://www.google.com' to start the crawler
 - An output file can be found in output/output.json
 
 ## How it works

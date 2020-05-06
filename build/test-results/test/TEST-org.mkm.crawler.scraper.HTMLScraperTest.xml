@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.mkm.crawler.scraper.HTMLScraperTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T16:54:55" hostname="9801741s-MBP" time="0.066">
-  <properties/>
-  <testcase name="returnsNothingIfNoLinks" classname="org.mkm.crawler.scraper.HTMLScraperTest" time="0.064"/>
-  <testcase name="returnsNothingIfLinkIsNotValid" classname="org.mkm.crawler.scraper.HTMLScraperTest" time="0.001"/>
-  <testcase name="scrapesCorrectLinks" classname="org.mkm.crawler.scraper.HTMLScraperTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
